@@ -1,0 +1,14 @@
+.overflow-bottom-hidden {
+  overflow: hidden;
+  position: relative;
+}
+
+.overflow-bottom-hidden::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%; /* Adjust this as needed */
+  background: inherit;
+}
